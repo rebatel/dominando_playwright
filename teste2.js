@@ -6,7 +6,7 @@ const { chromium } = require('playwright');
     const page = await context.newPage()
     await page.goto('https://react-redux.realworld.io/#/login')
 
-    HTML attribute - class
+    //HTML attribute - class
     const signIn = await page.$('.btn')
 
     //CSS selector
